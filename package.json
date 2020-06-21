@@ -1,0 +1,45 @@
+{
+  "name": "groove-music-discord-rpc",
+  "version": "0.0.1",
+  "description": "A NodeJS integration of Groove Music for Discord",
+  "main": "dist/index.js",
+  "scripts": {
+    "compile": "gulp compile",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Monsupito/groove-music-discord-rpc.git"
+  },
+  "keywords": [
+    "Discord",
+    "RPC",
+    "Groove",
+    "Music",
+    "NodeJS"
+  ],
+  "author": "FellGill",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Monsupito/groove-music-discord-rpc/issues"
+  },
+  "homepage": "https://github.com/Monsupito/groove-music-discord-rpc#readme",
+  "devDependencies": {
+    "coffeescript": "^2.5.1",
+    "gulp": "^4.0.2",
+    "gulp-coffee": "github:Monsupito/gulp-coffee",
+    "gulp-javascript-obfuscator": "^1.1.6",
+    "gulp-prettier": "^3.0.0",
+    "nexe": "^3.3.2"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "child_process": "^1.0.2",
+    "discord-rpc": "^3.1.1",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^9.0.1",
+    "log-update": "^4.0.0",
+    "path": "^0.12.7",
+    "sleep": "^6.2.0"
+  }
+}
